@@ -1,0 +1,51 @@
+{
+  "name": "4_express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@sentry/integrations": "^7.49.0",
+    "@sentry/node": "^7.49.0",
+    "@types/ajv": "^1.0.0",
+    "@types/express": "^4.17.17",
+    "ajv": "^8.12.0",
+    "ajv-formats": "^2.1.1",
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-formidable": "^1.2.0",
+    "nodemon": "^2.0.22",
+    "path": "^0.12.7",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.9.1",
+    "typedi": "^0.10.0",
+    "typescript": "^5.0.4",
+    "winston": "^3.8.2",
+    "@types/node": "^18.16.0",
+    "eslint": "^8.38.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-standard-with-typescript": "^34.0.1",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2",
+    "nanoid": "^3.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.7",
+    "rimraf": "^5.0.0"
+  },
+  "dependencies": {
+    "convict": "^6.2.4",
+    "dotenv": "^16.0.3"
+  }
+}

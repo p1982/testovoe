@@ -1,0 +1,29 @@
+.post-list {
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.post-list img {
+    width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .post-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        grid-template-rows: repeat(3, 1fr);
+    }
+ 
+}
+
+@media screen and (max-width: 480px) {
+    .post-list {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        grid-template-rows: repeat(6, 1fr);
+    }
+ 
+}

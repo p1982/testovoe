@@ -1,0 +1,121 @@
+/* TODO Add site wide styles */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&display=swap');
+html, body, div, span, applet, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+input, button {
+	-webkit-appearance: none;
+	outline: 0;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+p {
+	margin: 0;
+}
+
+video {
+	outline: none;
+	border: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	width: 100%;
+	margin: 0 auto;
+	height: 100%;
+	max-width: 1920px;
+	background: #171C31;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.3em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-family: 'Abril Fatface', serif;
+  letter-spacing: 3px;
+}
+
+header{
+	padding: 20px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+p, a{
+	color:#ffffff;
+	margin: 10px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .container {
+		margin: 10px;
+    }
+ 
+}
